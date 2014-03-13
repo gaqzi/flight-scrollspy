@@ -1,0 +1,22 @@
+{
+  "name": "flight-scrollspy",
+  "version": "0.9.0",
+  "main": "lib/scrollspy.js",
+  "dependencies": {
+    "flight": "~1.1.0"
+  },
+  "devDependencies": {
+    "jasmine-flight": "~2.2.0"
+  },
+  "ignore": [
+    ".gitignore",
+    ".gitattributes",
+    ".travis.yml",
+    "CONTRIBUTING.md",
+    "CHANGELOG.md",
+    "test",
+    "package.json",
+    "karma.conf.js",
+    "Gruntfile.js"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "flight-scrollspy",
+  "version": "0.9.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-bump": "latest",
+    "karma": "~0.12.0",
+    "karma-jasmine": "~0.1.0",
+    "karma-requirejs": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-ie-launcher": "~0.1.1",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma-safari-launcher": "~0.1.1",
+    "matchdep": "latest",
+    "grunt-karma-coveralls": "~2.4.0",
+    "karma-coverage": "~0.2.0"
+  },
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start --single-run --reporters dots,coverage --browsers PhantomJS",
+    "watch-test": "node_modules/karma/bin/karma start"
+  }
+}
